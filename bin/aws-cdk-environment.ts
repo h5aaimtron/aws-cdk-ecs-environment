@@ -1,4 +1,10 @@
 #!/usr/bin/env node
+/**
+ * AWS ECS Environment in CDK
+ * Author: Scott Ladd
+ * Email: sladd@it.ucla.edu
+ */
+
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
 import { AwsCdkEnvironmentStack } from '../lib/aws-cdk-environment-stack';
